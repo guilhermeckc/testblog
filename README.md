@@ -7,8 +7,8 @@ WAMI is a webapplication to post and view informations about microorganisms
 Django
 
 # GETTING STARTED ON LINUX
-1. Clone this repository:
-   ```git clone https://github.com/guilhermeckc/testblog.git```
+1. Clone this repository: 
+   ######```git clone https://github.com/guilhermeckc/testblog.git```
 2. Create a virtual environment: 
    ```python3 -m venv venv```
 3. Activate your environment: 
