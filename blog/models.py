@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.urls import reverse
+
 
 class Post(models.Model):
     microorganism = models.CharField(max_length=200)
@@ -9,5 +11,11 @@ class Post(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
+    class Meta:
+        ordering = ("microorganism",)
+
     def __str__(self):
         return self.microorganism
+
+    def get_absolute_url(self):
+        return reverse("blog:detail", kwargs={"slug": self.slug})
