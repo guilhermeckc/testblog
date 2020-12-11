@@ -5,7 +5,7 @@
 # PREREQUISITES
 ###### Django
 
-# GETTING STARTED
+# GETTING STARTED ON LINUX
 ###### Step 1 (Clone this repository): git clone https://github.com/guilhermeckc/testblog.git
 ###### Step 2 (Create a virtual environment): python3 -m venv venv
 ###### Step 3 (Activate your environment): source venv/bin/activate
