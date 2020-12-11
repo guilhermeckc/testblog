@@ -5,7 +5,8 @@
 {% block content %}
     <h2>{{ post.microorganism }}</h2>
     <p class="date">
-        Publicado em {{ post.created }} por {{ post.updated }}
+        Publicado em {{ post.created }} por {{ post.author }}<br>
+        Última atualização em {{ post.updated }}
     </p>
     <h3>{{ post.text|linebreaks }}</h3>
 
