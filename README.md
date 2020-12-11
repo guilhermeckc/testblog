@@ -10,6 +10,6 @@
 ###### Step 2 (Create a virtual environment): python3 -m venv venv
 ###### Step 3 (Activate your environment): source venv/bin/activate
 ###### Step 4 (Install dependencies): pip install -r requirements.txt
-###### Step 5 
+###### Step 5 (Run!): python manage.py runserver
 ###### Step 6 
 ###### Step 7 
