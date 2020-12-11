@@ -10,10 +10,6 @@
                     {{ post.microorganism }}
                 </a>
             </h2>
-            {{ post.text|linebreaks|truncatewords:10 }}
-            <p class="date">
-                Puclicado em {{ post.created }} por {{ post.author }}
-            </p>
         </article>
     {% endfor %}
 {% endblock %}

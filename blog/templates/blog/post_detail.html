@@ -4,8 +4,9 @@
 
 {% block content %}
     <h2>{{ post.microorganism }}</h2>
-    {{ post.text|linebreaks }}
     <p class="date">
         Publicado em {{ post.created }} por {{ post.updated }}
     </p>
+    <h3>{{ post.text|linebreaks }}</h3>
+
 {% endblock %}
