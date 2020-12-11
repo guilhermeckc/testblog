@@ -6,7 +6,8 @@
 #### Django
 
 # GETTING STARTED ON LINUX
-1. (Clone this repository): git clone https://github.com/guilhermeckc/testblog.git
+1. (Clone this repository): 
+   '''git clone https://github.com/guilhermeckc/testblog.git'''
 2. (Create a virtual environment): python3 -m venv venv
 3. (Activate your environment): source venv/bin/activate
 ####### Next steps you need execute from your webapp directory:
