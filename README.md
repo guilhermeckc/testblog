@@ -19,5 +19,5 @@ Django
 8. Run your app: ```python manage.py runserver```
 
 #### Next steps you need execute from your browser:
-9. Open your webapp: ```http://127.0.0.1:8000/blog```
+9. Open your webapp: ```http://127.0.0.1:8000/blog/```
 10. Create your first post: ```http://127.0.0.1:8000/admin/```
